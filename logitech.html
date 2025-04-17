@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logitech MX Vertical | Ratón Ergonómico</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0078d7;
+      --dark: #1c1c1c;
+      --gray: #f4f4f4;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: white;
+      color: var(--dark);
+    }
+    header {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+      filter: brightness(0.4);
+    }
+    .header-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+    .header-text h1 {
+      font-size: 3.2rem;
+    }
+    .header-text p {
+      font-size: 1.2rem;
+    }
+    .hero, .features, .cta {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      background-color: #fff;
+    }
+    .feature {
+      background-color: #eaf3fc;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+    .gallery-section {
+      background-color: #f9f9f9;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    .gallery-section h2 {
+      margin-bottom: 2rem;
+    }
+    .gallery-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .gallery-container img {
+      width: 500px;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .gallery-container img:hover {
+      transform: scale(1.05);
+    }
+    .video-section {
+      padding: 4rem 2rem;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    .video-section iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .details {
+      padding: 4rem 2rem;
+      background: #f4f4f4;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .details h2 {
+      margin-bottom: 1rem;
+    }
+    .details h3 {
+      margin-top: 2rem;
+      color: var(--primary);
+    }
+    .details ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .details li {
+      padding: 0.3rem 0;
+    }
+    .cta {
+      background-color: var(--primary);
+      color: white;
+    }
+    .cta button {
+      margin-top: 1rem;
+      background: white;
+      color: var(--primary);
+      border: none;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 0 12px rgba(255,255,255,0.4);
+    }
+    .cta button:hover {
+      background: #636363;
+    }
+    footer {
+      background: #1c1c1c;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://resource.logitech.com/w_1440,h_810,ar_16:9,c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/mx-vertical-advance-ergonomics-01.png" alt="Fondo MX Vertical">
+    <div class="header-text">
+      <h1>Logitech MX Vertical</h1>
+      <p>Ratón ergonómico avanzado para el bienestar profesional</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Diseñado para reducir la tensión muscular</h2>
+    <p>MX Vertical es un ratón ergonómico avanzado que combina un diseño con base científica y el alto rendimiento de la serie MX de Logitech. Supera las molestias con un ratón diseñado para reducir la tensión muscular, disminuir la presión en la muñeca y mejorar la postura.</p>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Postura Natural</h3>
+      <p>El ángulo vertical de 57º reduce la presión en la muñeca y mejora la ergonomía del antebrazo.</p>
+    </div>
+    <div class="feature">
+      <h3>Alta Precisión</h3>
+      <p>Sensor de 4000 DPI que reduce hasta 4 veces el movimiento de la mano.</p>
+    </div>
+    <div class="feature">
+      <h3>Conectividad Flexible</h3>
+      <p>Compatible con Bluetooth, receptor USB y cable USB-C. Controla hasta 3 dispositivos.</p>
+    </div>
+    <div class="feature">
+      <h3>Duración de Batería</h3>
+      <p>Hasta 4 meses de uso. 1 minuto de carga proporciona 3 horas de uso.</p>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <h2>Explora el producto visualmente</h2>
+    <div class="gallery-container">
+      <img src="https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/gallery/mx-vertical-gallery-01-new.png" alt="Vista lateral">
+      <img src="https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/gallery/mx-vertical-gallery-02.png" alt="Vista frontal">
+      <img src="https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/gallery/mx-vertical-gallery-03.png" alt="Vista trasera">
+      <img src="https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/gallery/mx-vertical-gallery-05.png" alt="Vista trasera">
+      
+    </div>
+  </section>
+
+  <section class="video-section">
+    <h2>Descubre más en vídeo</h2>
+    <iframe src="https://www.youtube.com/embed/yNncbZbTWWc" title="MX Vertical Video" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section class="details">
+    <h2>Especificaciones y compatibilidad</h2>
+
+    <h3>Dimensiones</h3>
+    <ul>
+      <li><strong>Ratón:</strong> 120 × 79 × 78.5 mm, 135 g</li>
+      <li><strong>Receptor USB:</strong> 23.1 × 18.4 × 6.6 mm, 2 g</li>
+    </ul>
+
+    <h3>Especificaciones técnicas</h3>
+    <ul>
+      <li>Sensor ajustable de 400-4000 DPI</li>
+      <li>Botones: 4 personalizables (Retroceso/Avance, clic y botón central)</li>
+      <li>Rueda de precisión</li>
+      <li>Batería Li-Po recargable de 240 mAh</li>
+      <li>Conectividad: USB Unifying, Bluetooth LE 4.2, hasta 10 m</li>
+      <li>Compatible con Logi Options+ para Windows y macOS</li>
+    </ul>
+
+    <h3>Compatibilidad</h3>
+    <ul>
+      <li><strong>USB:</strong> Windows 10/11, macOS 10.15+, ChromeOS, Linux</li>
+      <li><strong>Bluetooth:</strong> Windows 10/11, macOS 10.15+, iPadOS 13.4+, ChromeOS, Linux</li>
+      <li>Se requiere acceso a Internet para Logi Options+</li>
+    </ul>
+
+    <h3>Sostenibilidad</h3>
+    <ul>
+      <li>Embalaje de papel con certificación FSC™</li>
+    </ul>
+
+    <h3>Garantía y referencia</h3>
+    <ul>
+      <li>Garantía de hardware limitada de 2 años</li>
+      <li>Número de referencia: 910-005448</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>¡Haz la transición al confort profesional!</h2>
+    <p>Descubre una nueva forma de trabajar con MX Vertical.</p>
+    <a href="https://www.logitech.com/es-es/products/mice/mx-vertical-ergonomic-mouse.910-005448.html">
+      <button>Comprar ahora</button>
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2025 Logitech. Todos los derechos reservados. | Simulación inspirada en logitech.com
+  </footer>
+</body>
+</html>
